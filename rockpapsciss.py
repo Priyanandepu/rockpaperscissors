@@ -102,5 +102,7 @@ if(userchoice3=="rock" or userchoice3=="paper" or userchoice3=="scissors"):
   print(f"\nCOMPUTER SCORE:{cscore}\nYOUR SCORE:{uscore}")
 if(cscore>uscore):
   print("              COMPUTER WON               ")
-else:
+elif(cscore<uscore):
   print("                YOU WIN                  ")
+else:
+  print("               DRAW MATCH                ")
